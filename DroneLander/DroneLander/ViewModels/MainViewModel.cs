@@ -13,6 +13,7 @@ namespace DroneLander
     {
         public MainViewModel(MainPage activityPage)
         {
+            //test
             this.ActivityPage = activityPage;
             this.ActiveLandingParameters = new LandingParameters();
             this.Altitude = this.ActiveLandingParameters.Altitude;
